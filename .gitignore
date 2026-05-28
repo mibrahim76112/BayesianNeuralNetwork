@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch / ML checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+models/
+runs/
+
+# Experiment outputs
+results*/
+debug_run/
+plots/
+*.csv
+*.npz
+*.npy
+*.pkl
+
+# Logs
+*.log
+logs/
+wandb/
+tensorboard/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
